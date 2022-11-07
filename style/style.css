@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hb svg {
+    width: 40px;
+}
+
+.hb {
+    cursor: pointer;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #000;
+}
+
+img {
+    max-width: 100vw;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 26px;
+}
+
+li {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(4, 4, 4, .70);
+}
+
+nav .logo img {
+    height: 30px;
+}
+
+.top-menu {
+    position: fixed;
+    top: 0;
+    right: -100vw;
+    bottom: 0;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    transition: .3s;
+}
+
+.close svg {
+    width: 40px;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 99;
+    cursor: pointer;
+}
+
+#landing {
+    height: 100vh;
+    vertical-align: middle;
+}
+
+#division .container .ckiri img {
+    max-width: 60vw;
+}
+
+#division .container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+#division .container .ckiri h3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2px;
+}
+
+#division .container .ckiri {
+    padding-bottom: 20px;
+}
+
+.jdiv {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.jdiv h2 {
+    color: white;
+}
